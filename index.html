@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>JS demo</title>
+	<!-- my CSS  -->
+	<link href="purple.css" rel="stylesheet" >
+	
+	<!-- javascript -->
+	<script type="text/javascript">
+		//javascript goes here inside script tags
+		//document.write("Hi"); //write direct to webpage
+		document.write("<h1>Hello World!</h1>"); //using HTML tags
+		
+		//this is a var declare and value assigned
+		var name = "Jo";
+		document.write("<br /> Hi " + name+ "\n how are you? "); //making use of the variable
+		
+		
+		
+		var age = "<br /> how old are you?";
+		document.write(age);
+		
+		var x = 10;  
+		var y = 11;  
+		var z=x+y;  
+		document.write("<br /> I am " + z+ "\n years old"); 
+	
+	
+		
+	</script>
+  </head>
+  <body>
+
+	
+<br />
+	<script>
+	var time = new Date().getHours();
+	var greeting;
+	if (time < 20) //if time is less than 20/8pm 
+	{
+    greeting = "Good day"; //if time is less than 20/8pm it will display good day to the user
+	} else {
+    greeting = "Good evening"; //if time is greater than 20/8pm it will display good evening to the user 
+	}
+	document.write(greeting); //prints the result 
+</script>
+<br />
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+	sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	<a href="page2.html">Page 2</a>
+	
+	
+  </body>
+</html>

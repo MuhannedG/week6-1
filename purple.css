@@ -1,0 +1,22 @@
+
+/* styling my heading1*/
+
+h1 {
+	text-align: left;
+	color: blue;
+	text-indent: 20px;
+}
+
+/* styling my paragraph */
+p {
+  text-align: center;
+  color: red;
+} 
+
+/* I used @media to make my webpage responsive */ 
+
+	@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
